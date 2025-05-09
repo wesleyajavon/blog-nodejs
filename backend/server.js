@@ -8,9 +8,13 @@ const db = require("better-sqlite3")("ourApp.db")
 const bcrypt = require("bcrypt")
 const cookieParser = require("cookie-parser")
 const { redirect } = require("express/lib/response")
+const cors = require('cors');
+
 
 db.pragma("journal_mode = WAL")
 const app = express()
+app.use(cors());
+
 
 // database setup here
 const createTables = db.transaction(() => {

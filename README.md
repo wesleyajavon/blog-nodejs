@@ -4,6 +4,10 @@ A simple RESTful Blog API built with **Node.js** and **Express**, designed to ha
 
 ---
 
+🌐 **Live Site:** [https://blog-nodejs-t006.onrender.com/](https://blog-nodejs-t006.onrender.com/)
+
+---
+
 ## 🚀 Features
 
 - RESTful API design
@@ -43,7 +47,7 @@ A simple RESTful Blog API built with **Node.js** and **Express**, designed to ha
 
 ```bash
 git clone https://github.com/wesleyajavon/blog-nodejs.git
-cd blog-nodejs
+cd blog-nodejs/backend
 npm install
 npm run dev
 
